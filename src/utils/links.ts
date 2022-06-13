@@ -31,6 +31,26 @@ export const links: ILink[] = [
         url: '/tables/products',
         icon: 'inventory',
       },
+      {
+        id: 22,
+        title: 'Categories',
+        url: '/tables/categories',
+        icon: 'category',
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: 'Form',
+    url: '#',
+    icon: 'check_box',
+    children: [
+      {
+        id: 31,
+        title: 'Profile',
+        url: '/form/profile',
+        icon: 'info',
+      },
     ],
   },
 ];

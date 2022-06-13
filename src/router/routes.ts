@@ -14,6 +14,14 @@ const routes: RouteRecordRaw[] = [
         path: '/tables/products',
         component: () => import('pages/Table/TableOne.vue'),
       },
+      {
+        path: '/tables/categories',
+        component: () => import('pages/Table/TableTwo.vue'),
+      },
+      {
+        path: '/form/profile',
+        component: () => import('pages/Form/ProfilePage.vue'),
+      },
     ],
   },
 
